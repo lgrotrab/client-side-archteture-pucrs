@@ -5,6 +5,7 @@ import MeuBotao from "./components/MeuBotao.jsx";
 import MeuBotao2 from "./components/MeuBotao2.jsx";
 import { Contador } from "./components/Contador.jsx";
 import { ContadorReducer } from "./components/ContadorReducer.jsx";
+import { Relogio } from "./components/Relogio.jsx";
 
 function App() {
   const handleClick = (event) => {
@@ -22,6 +23,7 @@ function App() {
       </div>
       <Contador />
       <ContadorReducer />
+      <Relogio />
     </>
   );
 }
